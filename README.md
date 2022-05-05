@@ -47,3 +47,10 @@ Prompt:
 
     Finally, deploy your code to a hosting service of your choice. Mozio is built entirely on AWS, so bonus points will be awarded for use of AWS.
 
+
+
+Superuser credentials:
+user: admin
+email:admin@mozio.com
+password:admin
+
