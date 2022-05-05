@@ -33,6 +33,8 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     # created the app 
     'myapi',
+    # rest-framework
+    'rest_framework',
     # ---------------
     'django.contrib.admin',
     'django.contrib.auth',
