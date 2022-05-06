@@ -3,6 +3,8 @@
 # all to see the database whilst I was developing the program
 from django.contrib import admin
 from .models import Provider
+from .models import ServiceArea
 
 # this line of code registers the model on the admin site
 admin.site.register(Provider)
+admin.site.register(ServiceArea)

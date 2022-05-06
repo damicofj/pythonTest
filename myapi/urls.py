@@ -17,8 +17,12 @@ from django.contrib import admin
 from django.urls import path
 # import all the views
 from myapi import views
+from rest_framework.urlpatterns import format_suffix_patterns
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('myapi/', views.Provider_list),
+    path('myapi/providers/', views.Provider_list),
+    path('myapi/areas/', views.Provider_ServiceArea),
 ]
+
+urlpatterns = format_suffix_patterns(urlpatterns)

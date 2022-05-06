@@ -35,6 +35,8 @@ INSTALLED_APPS = [
     'myapi',
     # rest-framework
     'rest_framework',
+    # geojson
+    'djgeojson',
     # ---------------
     'django.contrib.admin',
     'django.contrib.auth',
